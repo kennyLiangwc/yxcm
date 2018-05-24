@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/logs/detail/detail",
+    "pages/index/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "ttt",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle":
+     "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "豆瓣",
+        "selectedIconPath": "img/douban_32.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "猫眼",
+        "selectedIconPath": "img/maoyan_32.png"
+      }
+    ]
+  },
+  "debug": true
+}
